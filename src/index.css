@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-navy: #0a1222;
+    --color-navy-light: #121f35;
+    --color-teal: #5eead4;
+    --color-gray-100: #f3f4f6;
+    --color-gray-200: #e5e7eb;
+    --color-gray-300: #d1d5db;
+    --color-gray-400: #9ca3af;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-navy text-white font-sans;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-medium;
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24;
+  }
+
+  .section-divider {
+    @apply w-full h-px bg-gray-800 my-8;
+  }
+
+  .section-heading {
+    @apply text-xl md:text-2xl font-medium text-teal mb-2;
+  }
+
+  .section-number {
+    @apply text-xl md:text-2xl font-medium text-teal;
+  }
+
+  .tag {
+    @apply px-3 py-1 text-xs rounded-md bg-navy-light text-teal border border-[#5eead4] border-opacity-20;
+  }
+
+  .social-icon {
+    @apply w-10 h-10 rounded-full border border-[#5eead4] border-opacity-20 flex items-center justify-center text-teal transition-all duration-300 hover:bg-teal hover:text-navy;
+  }
+
+  .btn {
+    @apply px-5 py-2 rounded-md transition-all duration-300 font-medium;
+  }
+
+  .btn-primary {
+    @apply btn border border-teal text-teal hover:bg-teal hover:text-navy;
+  }
+
+  .btn-outline {
+    @apply btn border border-white/20 text-white hover:border-teal hover:text-teal;
+  }
+
+  .nav-link {
+    @apply relative text-gray-400 hover:text-teal transition-colors duration-300;
+  }
+
+  .nav-link.active {
+    @apply text-teal;
+  }
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease forwards;
+}
+
+/* Custom scroll bar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-navy);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-teal);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4fd1c5;
+}
