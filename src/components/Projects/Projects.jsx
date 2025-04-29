@@ -12,23 +12,23 @@ export const Projects = () => {
       title: 'Personal Portfolio',
       description: 'A personal portfolio website built with React and Tailwind CSS to showcase my projects and skills.',
       tags: ['React', 'Tailwind CSS', 'JavaScript'],
-      githubLink: '#',
-      liveLink: '#'
+      githubLink: 'https://github.com/Pranaykumar222/Portfolio',
+      liveLink: 'https://portfolio-nine-livid-15.vercel.app/'
     },
 
     {
       title: 'Quiz-App',
       description: 'An interactive quiz application built with React and Tailwind CSS, featuring dynamic questions, score tracking, and a smooth user experience.',
       tags: ['React','JAVASCRIPT','Tailwind CSS'],
-      githubLink: '#',
-      liveLink: '#'
+      githubLink: 'https://github.com/Pranaykumar222/Quiz-App',
+      liveLink: 'https://quiz-app-eta-flame.vercel.app/'
     },
 
     {
   title: 'Chat-App',
   description: 'A real-time chat application powered by Cursor AI and Bolt AI, enabling seamless conversations with smart features, modern UI using React and Tailwind CSS, and secure communication.',
   tags: ['React', 'Tailwind CSS', 'JavaScript', 'Cursor AI', 'Bolt AI'],
-  githubLink: '#',
+  githubLink: 'https://github.com/Pranaykumar222/Chat-App',
   liveLink: '#'
 },
 
@@ -36,7 +36,7 @@ export const Projects = () => {
       title: 'To-Do App',
       description: 'A simple and efficient to-do list application built with React and Tailwind CSS, allowing users to add, edit, complete, and delete tasks with a clean and responsive UI.',
       tags: ['JavaScript', 'HTML', 'Tailwind CSS', 'JAVASCRIPT','NODE JS','EXPRESS JS','POSTGRESQL'],
-      githubLink: '#',
+      githubLink: 'https://github.com/Pranaykumar222/To-Do-App',
       liveLink: '#'
     },
 
@@ -44,14 +44,16 @@ export const Projects = () => {
       title: 'Stock Market Dashboard (Frontend Only)',
       description: 'A beautifully designed stock market dashboard built with React.js and Tailwind CSS, featuring static data to showcase portfolio tracking, stock watchlists, and visualizations. This project focuses on creating a clean, responsive UI without real-time data integration.',
       tags: ['JavaScript', 'React.js', 'Tailwind CSS'],
-      githubLink: '#',
-      liveLink: '#'
+      githubLink: 'https://github.com/Pranaykumar222/Stock-Market-Dashboard',
+      liveLink: 'https://stock-market-dashboard-mu.vercel.app/'
     },
 
     {
       title: 'World Clock',
       description: 'A beautifully styled world clock application built with React and Tailwind CSS, displaying real-time clocks for multiple countries with smooth animations and responsive design.',
       tags: ['React', 'JavaScript', 'Tailwind CSS'],
+      githubLink: 'https://github.com/Pranaykumar222/Clock',
+      liveLink: 'https://clock-zeta-one.vercel.app/'
     },
   ];
 
