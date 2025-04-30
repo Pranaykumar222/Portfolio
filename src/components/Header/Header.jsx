@@ -33,7 +33,7 @@ export const Header = () => {
         </nav>
 
         <a 
-          href="/resume.pdf" 
+          href="https://drive.google.com/file/d/1yQRTgridOfXRd2J-OnnmJ3Wo-_HLAP7G/view?usp=drive_link" 
           target="_blank" 
           rel="noopener noreferrer"
           className="hidden md:block btn-outline"
