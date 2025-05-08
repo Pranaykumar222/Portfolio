@@ -8,13 +8,16 @@ export const Projects = () => {
   const initialProjectsCount = 3;
 
   const projects = [
+
     {
-      title: 'Personal Portfolio',
-      description: 'A personal portfolio website built with React and Tailwind CSS to showcase my projects and skills.',
-      tags: ['React', 'Tailwind CSS', 'JavaScript'],
-      githubLink: 'https://github.com/Pranaykumar222/Portfolio',
-      liveLink: 'https://portfolio-nine-livid-15.vercel.app/'
-    },
+  title: 'Food-Delivery-App',
+  description: 'A full-stack food delivery application where users can browse menus, add items to their cart, and place orders. Built with a modern tech stack including React, Tailwind CSS, Node.js, Express.js, and MongoDB for dynamic UI, API interactions, and persistent data storage.',
+  tags: ['React', 'Tailwind CSS', 'JavaScript', 'Node.js', 'Express.js', 'MongoDB'],
+  githubLink: 'https://github.com/Pranaykumar222/Food-Delivery-App',
+  liveLink: 'https://food-delivery-app-client-bren.onrender.com'
+},
+
+
 
     {
       title: 'Quiz-App',
@@ -38,6 +41,14 @@ export const Projects = () => {
       tags: ['JavaScript', 'HTML', 'Tailwind CSS', 'JAVASCRIPT','NODE JS','EXPRESS JS','POSTGRESQL'],
       githubLink: 'https://github.com/Pranaykumar222/To-Do-App',
       liveLink: '#'
+    },
+
+ {
+      title: 'Personal Portfolio',
+      description: 'A personal portfolio website built with React and Tailwind CSS to showcase my projects and skills.',
+      tags: ['React', 'Tailwind CSS', 'JavaScript'],
+      githubLink: 'https://github.com/Pranaykumar222/Portfolio',
+      liveLink: 'https://portfolio-nine-livid-15.vercel.app/'
     },
 
     {
